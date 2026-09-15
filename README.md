@@ -28,3 +28,41 @@ AI 大模型工程化可视化动画合集｜Manim 源码，6 大章节：提示
 
 ## 📂 仓库目录结构
 
+ai-engineering-animation-series/
+├── manim/                # Manim 动画源脚本
+│   ├── agent/
+│   ├── rag/
+│   ├── prompt-eng/
+│   ├── prompt-check/
+│   ├── llm-basic/
+│   └── finetune/
+├── script/               # 视频分镜 + 旁白文稿
+├── docs/                 # 配套学习讲义、资料
+└── assets/               # 动画素材、配色规范
+
+
+
+## ⚙️ 环境依赖
+Python >=3.11
+Manim Community
+
+```bash
+# 安装依赖
+pip install manim
+
+
+manim -pqh manim/agent/agent_architecture.py AgentFullScene
+## 🎬 视频观看地址
+
+B 站合集页：【填入你的 B 站合集链接】
+当前视频：图解 AI Agent 架构｜从原理到工程落地 【BV 号】
+
+
+## 📜 License
+
+MIT License，可自由学习使用；二次发布请注明来源。
+
+## ⭐ 支持
+
+如果项目对你有帮助，欢迎 Star。
+有问题欢迎在 B 站评论区或仓库 Issue 讨论。
